@@ -5,6 +5,8 @@ import { Navbar } from './components/Navbar';
 import { Section } from './components/Section';
 import type { Project, Skill, Experience } from './types';
 import Profile from './assets/logo.png';
+import Ecom from './assets/Ecom.png'
+import Lecspace from './assets/Lecspace.png'
 
 const experiences: Experience[] = [
   // {
@@ -94,14 +96,14 @@ const projects: Project[] = [
   {
     title: "E-Commerce Platform",
     description: "A full-stack e-commerce solution with admin panel",
-    image: "../src/assets/Ecom.png",
+    image: Ecom,
     tags: ["ReactJS", "Node.js","ExpressJS", "MongoDB","Tailwind CSS"],
     link: "https://github.com/DinupaAthapattu/Ecommerce-Website"
   },
   {
     title: "Lab and Lecture Hall Booking System",
     description: "Full stack lab and lecture hall reservation system",
-    image: "../src/assets/Lecspace.png",
+    image: Lecspace,
     tags: ["ReactJS","NextJS","Node.js","Springboot","SQL","Tailwind CSS","TypeScript"],
     link: "https://github.com/Lecspace/lecspace-frontend"
   }
