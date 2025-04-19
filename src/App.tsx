@@ -146,7 +146,7 @@ function App() {
                 Dinupa Athapattu
               </h1>
               <p className="text-2xl font-medium text-gray-600 dark:text-gray-300 mb-8">
-                Full Stack Web Developer
+                Full Stack Developer
               </p>
               <div className="flex gap-4 justify-center md:justify-start mb-8">
                 <a href="https://github.com/DinupaAthapattu" className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400">
